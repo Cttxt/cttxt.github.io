@@ -1,3 +1,4 @@
+ï»¿@charset "utf-8"
 * {
     cursor: url("/uploads/cursor/cursor-default.png"), auto;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -36,45 +37,46 @@ body {
     33%   {content: " "}
     34.5% {content: "n"}
     36%   {content: "ni"}
-    37.5% {content: "Äã"}
-    39%   {content: "Äãh"}
-    40.5% {content: "Äãha"}
-    42%   {content: "Äãhao"}
-    43.5% {content: "ÄãºÃ"}
-    45%   {content: "ÄãºÃ "}
-    46.5% {content: "ÄãºÃ s"}
-    48%   {content: "ÄãºÃ sh"}
-    49.5% {content: "ÄãºÃ shi"}
-    51%   {content: "ÄãºÃ ÊÀ"}
-    52.5% {content: "ÄãºÃ ÊÀj"}
-    54%   {content: "ÄãºÃ ÊÀji"}
-    55.5% {content: "ÄãºÃ ÊÀjie"}
-    57%   {content: "ÄãºÃ ÊÀ½ç"}
-    60%   {content: "ÄãºÃ ÊÀ"}
-    61.5% {content: "ÄãºÃ "}
-    63%   {content: "ÄãºÃ"}
-    64.5% {content: "Äã"}
+    37.5% {content: "ä½ "}
+    39%   {content: "ä½ h"}
+    40.5% {content: "ä½ ha"}
+    42%   {content: "ä½ hao"}
+    43.5% {content: "ä½ å¥½"}
+    45%   {content: "ä½ å¥½ "}
+    46.5% {content: "ä½ å¥½ s"}
+    48%   {content: "ä½ å¥½ sh"}
+    49.5% {content: "ä½ å¥½ shi"}
+    51%   {content: "ä½ å¥½ ä¸–"}
+    52.5% {content: "ä½ å¥½ ä¸–j"}
+    54%   {content: "ä½ å¥½ ä¸–ji"}
+    55.5% {content: "ä½ å¥½ ä¸–jie"}
+    57%   {content: "ä½ å¥½ ä¸–ç•Œ"}
+    60%   {content: "ä½ å¥½ ä¸–"}
+    61.5% {content: "ä½ å¥½ "}
+    63%   {content: "ä½ å¥½"}
+    64.5% {content: "ä½ "}
     66%   {content: " "}
-    67.5% {content: "¤³"}
-    69%   {content: "¤³¤ó"}
-    70.5% {content: "¤³¤ó¤Ë"}
-    72%   {content: "¤³¤ó¤Ë¤Á"}
-    73.5% {content: "¤³¤ó¤Ë¤Á¤Ï"}
-    75%   {content: "¤³¤ó¤Ë¤Á¤Ï¤»"}
-    76.5% {content: "¤³¤ó¤Ë¤Á¤ÏÊÀ"}
-    78%   {content: "¤³¤ó¤Ë¤Á¤ÏÊÀ"}
-    79.5% {content: "¤³¤ó¤Ë¤Á¤ÏÊÀ¤«¤¤"}
-    81%   {content: "¤³¤ó¤Ë¤Á¤ÏÊÀ½ç"}
-    86%   {content: "¤³¤ó¤Ë¤Á¤ÏÊÀ"}
-    87.5% {content: "¤³¤ó¤Ë¤Á¤Ï"}
-    89%   {content: "¤³¤ó¤Ë¤Á"}
-    91.5% {content: "¤³¤ó¤Ë"}
-    93%   {content: "¤³¤ó"}
-    94.5% {content: "¤³"}
+    67.5% {content: "ã“"}
+    69%   {content: "ã“ã‚“"}
+    70.5% {content: "ã“ã‚“ã«"}
+    72%   {content: "ã“ã‚“ã«ã¡"}
+    73.5% {content: "ã“ã‚“ã«ã¡ã¯"}
+    75%   {content: "ã“ã‚“ã«ã¡ã¯ã›"}
+    76.5% {content: "ã“ã‚“ã«ã¡ã¯ä¸–"}
+    78%   {content: "ã“ã‚“ã«ã¡ã¯ä¸–"}
+    79.5% {content: "ã“ã‚“ã«ã¡ã¯ä¸–ã‹ã„"}
+    81%   {content: "ã“ã‚“ã«ã¡ã¯ä¸–ç•Œ"}
+    86%   {content: "ã“ã‚“ã«ã¡ã¯ä¸–"}
+    87.5% {content: "ã“ã‚“ã«ã¡ã¯"}
+    89%   {content: "ã“ã‚“ã«ã¡"}
+    91.5% {content: "ã“ã‚“ã«"}
+    93%   {content: "ã“ã‚“"}
+    94.5% {content: "ã“"}
     96%   {content: " "}
 }
 .title::before {
     content: " ";
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     animation: title 12s  infinite;
     -webkit-animation: title 12s  infinite; /* Safari and Chrome */
     z-index: 1000;
